@@ -32,6 +32,19 @@ p {
   color: slategray;
 }
 
+.url {
+  position: relative;
+  display: inline-block;
+}
+
+.url::after {
+  content: url("../images/underline.svg");
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0;
+  width: 100%;
+}
+
 .giphy-credit a {
   text-decoration: none;
   font-size: small;
