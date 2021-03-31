@@ -12,6 +12,7 @@ body {
   place-items: center;
   background-color: var(--bg);
   color: var(--text-color__primary);
+  font-family: sans-serif;
 }
 
 header {
